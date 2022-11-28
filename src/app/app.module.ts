@@ -9,6 +9,7 @@ import { UserRegistrationComponent } from './user-registration/user-registration
 import { AddFoodComponent } from './add-food/add-food.component';
 import { FoodViewAllComponent } from './food-view-all/food-view-all.component';
 import { RouterModule, Routes } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoutes: Routes=[
   {
@@ -36,7 +37,8 @@ const myRoutes: Routes=[
     UserLoginComponent,
     UserRegistrationComponent,
     AddFoodComponent,
-    FoodViewAllComponent
+    FoodViewAllComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
