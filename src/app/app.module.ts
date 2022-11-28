@@ -7,6 +7,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
 import { AddFoodComponent } from './add-food/add-food.component';
+import { FoodViewAllComponent } from './food-view-all/food-view-all.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AddFoodComponent } from './add-food/add-food.component';
     AdminLoginComponent,
     UserLoginComponent,
     UserRegistrationComponent,
-    AddFoodComponent
+    AddFoodComponent,
+    FoodViewAllComponent
   ],
   imports: [
     BrowserModule,
