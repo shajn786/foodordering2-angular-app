@@ -9,23 +9,23 @@
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Food name</label>
-                    <input  type="text" class="form-control">
+                    <input name="name" [(ngModel)]="name"  type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">price</label>
-                    <input  type="text" class="form-control">
+                    <input name="price" [(ngModel)]="price" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" class="form-label">Description</label>
-                    <textarea  class="form-control" id="" rows="5"></textarea>
+                    <textarea name="description" [(ngModel)]="description"  class="form-control" id="" rows="5"></textarea>
 
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Food Image</label>
-                    <input type="file"  id="" class="form-control">
+                    <input name="image" [(ngModel)]="image" type="file"  id="" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button  class="btn btn-primary">Add</button>
+                    <button (click)="add()"  class="btn btn-primary">Add</button>
                    
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
