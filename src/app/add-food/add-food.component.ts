@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AddFoodComponent {
 
+  name=""
+  price=""
+  description=""
+  image=""
+
+  add=()=>
+  {
+    let data:any={"name":this.name,"price":this.price,"description":this.description,"image":this.image}
+    console.log(data)
+  }
+
 }
